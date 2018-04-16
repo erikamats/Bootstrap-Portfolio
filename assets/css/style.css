@@ -1,0 +1,245 @@
+*{
+    box-sizing:border box;
+}
+
+
+body{
+    
+    font-family: 'Comfortaa', cursive;
+    color:#777777;
+    background-color: #4aaaa5;
+ 
+}
+
+header{
+    background-color:#e6e7dc;
+    height: 70px;
+ 
+}
+
+.top{
+   width:960px;
+   height:30px;
+   margin: 0 auto;
+ 
+}
+
+#name{
+    background-color: #4aaaa5;
+    width: 20%;
+    height: 100%;
+    color:white;   
+    padding: 20px; 
+    float: left;
+ 
+}
+
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: .5px;
+    text-align: center;
+    
+         
+}
+
+nav{
+    
+    width: 70%;
+    height: 30px;
+    text-align: right;
+    font-size: 15px;
+    padding:20px;
+    margin:0 auto;
+    float: right;
+     
+}
+
+a:link{
+    clear: both;
+  
+    color:rgb(75, 61, 130);
+}
+
+.wrapper{
+   
+   margin:0 auto;
+   height: 100%;
+   width:auto;
+   padding: 2%;
+   background-color: #4aaaa5;
+   background-image:url("../images/hypnotize.png") ;
+
+}
+
+.container{
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(230, 231, 220,.7);
+    line-height: 150%;
+    height:730px;
+}
+ 
+hr {
+    display: block;
+    border-top: 3px solid #ccc;
+    margin: 0 auto;
+  
+}
+
+h2{
+    font-weight:500;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom:30px;
+   font-family: 'Nunito', sans-serif;
+   padding:20px;
+}
+
+p{
+    padding:5px;
+}
+
+
+#headshot{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-top:7px;
+    margin-right:10px;
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 50%;
+    float: left;   
+   
+}
+
+#copyright{
+   
+    width:100%;
+    background-color: #666666;
+    color:white;
+              
+}
+
+
+/* Footer is in different spot for contact page 
+vs about and portfolio--refer back to fix
+*/
+
+
+footer{
+    clear: both;
+    width:960px;
+    height:100%;
+    margin:0px auto;
+    text-align: center;
+    padding:15px;
+    background-color: #666666;
+    position:relative;
+    border-top: 8px; solid #4aaaa5;
+}
+
+/*
+To Follow: styling for form
+*/
+
+input[type=text], select {
+    width: 100%;
+    /* padding: 12px 40px; */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(75, 61, 130);
+}
+
+#form {
+    padding: 30px;
+    margin:0px auto;
+}
+
+/*To Follow: styling for Portfolio*/
+
+.gallery {
+    margin: 20px 0 25px;
+    float: left;
+    width: 274px;
+    position: relative;
+    overflow: auto;
+}
+
+.gallery:nth-child(even){
+    margin-right: 40px;
+}
+   
+
+
+.gallery img {
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+  
+}
+
+.auth-image{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+.desc{
+    border-bottom: 0;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    bottom:20px;
+    padding: 15px;
+    position: absolute;
+    width:100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+
+
+
+/* Icons */
+#fa fa-address-card{
+
+}
