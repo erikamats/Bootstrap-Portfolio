@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <title> Bootstrap Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
@@ -12,82 +14,127 @@
 </head>
 
 <body>
-    <header>
-        <section class="top">
-            <div id="name">
-                <h1> Erika Matsumoto</h1>
+
+    <!-- Insert Nav Here -->
+    <!-- Positioning and styling of Nav bar needs work -->
+
+    <div class="containter-fluid">
+        <nav class="navbar navbar-expand-lg">
+
+
+            <a class="navbar-brand" href="index.html">erika matsumoto</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
             </div>
 
+        </nav>
 
-            <nav>
-
-                <a href="index.html">About</a>
-                |
-
-                <a href="portfolio.html">Portfolio</a>
-                |
-                <a href="contact.html">Contact</a>
-                
-
-               
-
-            </nav>
-        </section>
-    </header>
-    <hr>
-
-    <div class="wrapper">
+<!-- Unfinished Gallery (margins, sizing, position,title)-->
         <section class="container">
-            <h2> Portfolio</h2>
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h2> Portfolio</h2>
+
+                </div>
+
+            </div>
 
             <hr>
 
-            <div class="gallery">
-                <a target="_blank" href="./assets/images/city.jpg">
-                    <img src="./assets/images/city.jpg" class="auth-image" alt="Hangman" >
-                </a>
-                <div class="desc">Hangman</div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="gallery">
+                        <a target="_blank" href="./assets/images/city.jpg">
+                            <img src="./assets/images/city.jpg" class="auth-image" alt="Hangman">
+                        </a>
+                        <div class="desc">Hangman</div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="gallery">
+                            <a target="_blank" href="./assets/images/city.jpg">
+                                <img src="./assets/images/city.jpg" class="auth-image" alt="RPG Game">
+                            </a>
+                            <div class="desc">RPG Game</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="gallery">
-                <a target="_blank" href="./assets/images/city.jpg">
-                    <img src="./assets/images/city.jpg" class="auth-image" alt="RPG Game" >
-                </a>
-                <div class="desc">RPG Game</div>
-            </div>
+            <div class="row">
+                <div class="col-md-6">
 
 
-            <div class="gallery">
-                <a target="_blank" href="./assets/images/city.jpg">
-                    <img src="./assets/images/city.jpg" class="auth-image" alt="Trivia Game" >
-                </a>
-                <div class="desc">Trivia Game</div>
-            </div>
+                    <div class="gallery">
+                        <a target="_blank" href="./assets/images/city.jpg">
+                            <img src="./assets/images/city.jpg" class="auth-image" alt="Trivia Game">
+                        </a>
+                        <div class="desc">Trivia Game</div>
+                    </div>
 
+                    <div class="col-md-6">
+                        <div class="gallery">
+                            <a target="_blank" href="./assets/images/city.jpg">
+                                <img src="./assets/images/city.jpg" class="auth-image" alt="Rutgers Info Widget">
+                            </a>
+                            <div class="desc">Rutgers Info Widget</div>
+                        </div>
+</div>
+</div>
 
-            <div class="gallery">
-                <a target="_blank" href="./assets/images/city.jpg">
-                    <img src="./assets/images/city.jpg" class="auth-image" alt="Rutgers Info Widget" >
-                </a>
-                <div class="desc">Rutgers Info Widget</div>
-            </div>
+                        <div class="gallery">
+                            <a target="_blank" href="./assets/images/city.jpg">
+                                <img src="./assets/images/city.jpg" class="auth-image" alt="Rock Paper Scissors">
+                            </a>
+                            <div class="desc">Rock Paper Scissors</div>
+                        </div>
 
-
-            <div class="gallery">
-                <a target="_blank" href="./assets/images/city.jpg">
-                    <img src="./assets/images/city.jpg" class="auth-image" alt="Rock Paper Scissors" >
-                </a>
-                <div class="desc">Rock Paper Scissors</div>
-            </div>
-           
         </section>
-    </div>
+        </div>
 
-    <div id="copyright">
-        <footer>
-            &copy; Copyright
-        </footer>
-    </div>
+        <div class="row-4">
+                <div class=" col-md-12 footer-border">
+                 
+                </div>
+            
+        
+                <div class="row-3">
+                    <div class="col-md-12 copyright">
+                        <span class="border-top-5 border-success">
+                            <footer>
+                                &copy; Copyright
+                            </footer>
+                        </span>
+                    </div>
+                </div>
+                </div>
+        
 
 </body>
 

@@ -3,81 +3,112 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <title> Bootstrap Portfolio</title>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <section class="top">
-            <div id="name">
-                <h1> Erika Matsumoto</h1>
-            </div>
+        <!-- Insert Nav Here -->
+    <!-- Positioning and styling of Nav bar needs work -->
 
-
-            <nav>
-
-                <a href="index.html">About</a>
-                |
-
-                <a href="portfolio.html">Portfolio</a>
-                |
-                <a href="contact.html">Contact</a>
-                
-
-               
-
+    <div class="containter-fluid">
+            <nav class="navbar navbar-expand-lg">
+    
+    
+                <a class="navbar-brand" href="index.html">erika matsumoto</a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+    
+                </div>
+    
             </nav>
-        </section>
-    </header>
-    <hr>
 
-    <div class="wrapper">
-        <section class="container">
-            <h2> Contact Me <i class="fa fa-address-card"></i> </h2> 
-
-            <hr>
-
-            <div id="form">
-                <form action="/action_page.php">
-
-                    <label for="fname">Full Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Your Email..">
-                
-
-                    <label for="email">Phone Number</label>
-                    <input type="text" id="phone" placeholder="Your phone...">
+        <div class="row">
+            <div class="col-md-12">
+                <h2> Contact Me
+                    <i class="fa fa-address-card"></i>
+                </h2>
+            </div>
+        </div>
 
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <hr>
 
-                    <input type="submit" value="Submit">
 
-                </form>
+
+        <!-- Insert From Here : Unfinished, to work on sizing and formatting-->
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Full Name </label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name Here">
             </div>
 
-        </section>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Phone</label>
+                <input type="phone" class="form-control" id="exampleFormControlInput3" placeholder="( - - ) - ( - - )-  ( - - - )">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Subject</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your Message...</textarea>
+            </div>
+
+        </form>
+    </section>
 
     </div>
+    <!-- 
+    Insert Footer here  -->
 
 
-    <div id="copyright">
-        <footer>
-            &copy; Copyright
-        </footer>
+    <div class="row-4">
+        <div class=" col-md-12 footer-border">
+
+        </div>
+
+
+        <div class="row-3">
+            <div class="col-md-12 copyright">
+                <span class="border-top-5 border-success">
+                    <footer>
+                        &copy; Copyright
+                    </footer>
+                </span>
+            </div>
+        </div>
     </div>
-
 </body>
 
 </html>

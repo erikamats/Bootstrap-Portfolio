@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Basic Portfolio</title>
+    <title> Bootstrap Portfolio</title>
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
 
     <link rel="stylesheet" type="text/css" href="./assets//css/style.css">
 
@@ -19,61 +18,67 @@
 </head>
 
 <body>
+    <!-- Insert Nav Here -->
+    <!-- Positioning and styling of Nav bar needs work -->
 
-    <!-- <section class="top">
-            <div id="name">
-                <h1> Erika Matsumoto</h1>
-            </div>
-
-            <nav>
-
-                <a href="index.html">About</a>
-                |
-
-                <a href="portfolio.html">Portfolio</a>
-                |
-                <a href="contact.html">Contact</a>
-            </section>
-               
-            </nav> -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-                aria-expanded="false" aria-label="Toggle navigation">
+    <div class="containter-fluid">
+    <nav class="navbar navbar-expand-lg">
+        
+            
+            <a class="navbar-brand" href="index.html">erika matsumoto</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Erika Matsumoto</a>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                
+                <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About </a>
+                        <a class="nav-link" href="index.html">About
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+                </ul>
 
             </div>
-    </div>
+            
+        <!-- </div> -->
     </nav>
 
+    <!-- End Nav -->
+
+    <!-- Insert About section here -->
+
+    <section class="container">
+
+        <div class="row-1">
+            <div class="col-md-12">
+                <h2>
+                    <i class="fa fa-angle-double-left"></i> About Me
+                    <i class="fa fa-angle-double-right"></i>
+
+                </h2>
+            </div>
+
+        </div>
+
+        <hr>
 
 
-    <div class="wrapper">
-        <section class="container">
-            <h2>
-                <i class="fa fa-angle-double-left"></i> About Me
-                <i class="fa fa-angle-double-right"></i>
-            </h2>
+        <div class="row-2">
+            <div class="col-md-12">
+                <img id="headshot" src="./assets/images/headshot.jpg" class="rounded-circle" alt="Erika Matsumoto">
+            </div>
 
-            <hr>
-
-
-
-            <img id="headshot" src="./assets/images/headshot.jpg" alt="Erika Matsumoto">
 
             <p>
                 Hiss and stare at nothing then run suddenly away toy mouse squeak roll over eat plants, meow, and throw up because i ate
@@ -88,7 +93,7 @@
                 out of own butt for burrow under covers, but flee in terror at cucumber discovered on floor so where is my
                 slave? I'm getting hungry.
             </p>
-            <br>
+
             <p>
                 Curl into a furry donut with tail in the air so lounge in doorway but lick arm hair inspect anything brought into the house,
                 but mark territory. Sleep in the bathroom sink. Scratch at the door then walk away scratch. Give me some
@@ -104,14 +109,34 @@
                 meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners
                 food.
             </p>
-        </section>
-    </div>
 
-    <div id="copyright">
-        <footer>
-            &copy; Copyright
-        </footer>
-    </div>
+        </div>
+    </section>
+
+
+<!-- End About me! -->
+
+
+<!-- Begin footer Here -->
+
+
+
+    <div class="row-4">
+        <div class=" col-md-12 footer-border">
+         
+        </div>
+    
+
+        <div class="row-3">
+            <div class="col-md-12 copyright">
+                <span class="border-top-5 border-success">
+                    <footer>
+                        &copy; Copyright
+                    </footer>
+                </span>
+            </div>
+        </div>
+        </div>
 
 </body>
 
