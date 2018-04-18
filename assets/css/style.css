@@ -125,7 +125,7 @@ hr{
     color:#ffffff;
     font-size: 17px;
     width:100%;
-    padding:10px;
+
     position: relative;
   margin:0 auto;
 
@@ -155,17 +155,25 @@ hr{
 }
 
 /* caption on image */
-.desc {
+.desc{
+    /* padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    margin-left:7%;
+    float: left;
+    width:80%; */
+
     padding: 5px;
     text-align: center;
     color: white;
     background-color: #4aaaa5;
-    margin-left:30px;
-    width:80%;
-    float:left;
-   
-   
-}
+    position: absolute;
+    bottom:15%;
+    width:73%;
+    margin-left:30px;;
+
+   }
 
 
 
