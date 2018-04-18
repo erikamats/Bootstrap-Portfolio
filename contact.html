@@ -1,21 +1,24 @@
 <!Doctype html>
 <html lang="eng-us">
 
-<head>
-    <meta charset="UTF-8">
-    <title> Bootstrap Portfolio</title>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-        crossorigin="anonymous">
-
-</head>
+       
+        <meta charset="UTF-8">
+        <title> Bootstrap Portfolio</title>
+    
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+    
+    
+        <link rel="stylesheet" type="text/css" href="./assets//css/style.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+            crossorigin="anonymous">
+    </head>
 
 <body>
-        <!-- Insert Nav Here -->
+    <!-- Insert Nav Here -->
     <!-- Positioning and styling of Nav bar needs work -->
 
     <div class="containter-fluid">
@@ -24,15 +27,11 @@
     
                 <a class="navbar-brand" href="index.html">erika matsumoto</a>
     
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
+                 
     
                 <div class="collapse navbar-collapse" id="navbarNav">
     
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">About
                                 <span class="sr-only">(current)</span>
@@ -49,48 +48,61 @@
                 </div>
     
             </nav>
+    
+      
+        <!-- <------ This is the Section---->
+        
+        <section class="container">
 
-        <div class="row">
-            <div class="col-md-12">
-                <h2> Contact Me
-                    <i class="fa fa-address-card"></i>
-                </h2>
-            </div>
-        </div>
+                <div class="row">
+                        <div class="col-md-12">
+                            <h2> Contact Me
+                                <i class="fa fa-address-card"></i>
+                            </h2>
+                        </div>
+                    </div>
+            
+            
+                    <hr>
 
+                           <!-- <------ This is the Form---->
 
-        <hr>
-
-
-
-        <!-- Insert From Here : Unfinished, to work on sizing and formatting-->
         <form>
+
             <div class="form-group">
-                <label for="exampleFormControlInput1">Full Name </label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name Here">
+                <label for="FullName">FullName</label>
+                <input type="bar" class="form-control" id="name" placeholder="Your Name..">
             </div>
 
             <div class="form-group">
-                <label for="exampleFormControlInput2">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="bar" class="form-control" id="email" placeholder="Your email..">
+
             </div>
 
             <div class="form-group">
-                <label for="exampleFormControlInput1">Phone</label>
-                <input type="phone" class="form-control" id="exampleFormControlInput3" placeholder="( - - ) - ( - - )-  ( - - - )">
+                <label for="phone">Phone Number</label>
+                <input type="bar" class="form-control" id="phone" placeholder="Your Phone...">
+
             </div>
 
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Subject</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your Message...</textarea>
-            </div>
+                    <label for="subjectArea">Subject</label>
+                    <input type="bar" class="form-control" id="phone" placeholder="Write Something..">
+    
+                </div>
 
+             
+            <button type="submit" class="btn btn-outline">Submit</button>
+     
+        
         </form>
-    </section>
 
-    </div>
-    <!-- 
-    Insert Footer here  -->
+        </section>
+
+
+
+    <!-- Insert Footer here  -->
 
 
     <div class="row-4">
@@ -109,6 +121,9 @@
             </div>
         </div>
     </div>
+
+
+
 </body>
 
 </html>
